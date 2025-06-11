@@ -5,17 +5,29 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication
-@RestController
-public class ObjViewerApplication {
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+@SpringBootApplication
+//@RestController
+public class ObjViewerApplication {
+	/* 
 	@GetMapping("/hello")
 	public String check() {
-		return "Hello World!";
-	}
+		return "Hello World...";
+	}*/
 
 	public static void main(String[] args) {
-		SpringApplication.run(ObjViewerApplication.class, args);
-	}
+		ApplicationContext context = SpringApplication.run(ObjViewerApplication.class, args);
 
+		// Annotation-Based Config
+		Letter letter = context.getBean(Letter.class);
+		letter.print();
+
+		/* Java-Based Config
+		ApplicationContext context = new AnnotationConfigApplicationContext(Learning.class);
+		Letter letter = context.getBean(Letter.class);
+
+		letter.print(); */
+	}
 }

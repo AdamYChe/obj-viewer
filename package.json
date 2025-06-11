@@ -1,0 +1,12 @@
+{
+    "name": "Object Omniscience",
+    "version": "0.1.0",
+    "scripts": {
+        "start:backend": "cd backend && mvnw.cmd spring-boot:run",
+        "start:frontend": "cd frontend && npm start",
+        "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}

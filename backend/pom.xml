@@ -12,7 +12,7 @@
 	<artifactId>obj-viewer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>obj-viewer</name>
-	<description>Demo project for Spring Boot</description>
+	<description>TEMP DESCRIPTION</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -34,7 +34,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
