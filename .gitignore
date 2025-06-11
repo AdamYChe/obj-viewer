@@ -33,4 +33,4 @@ backend/!**/src/test/**/build/
 backend/.vscode/
 
 ### Config ###
-backend\src\main\resources\application.properties
+backend/src/main/resources/application.properties
