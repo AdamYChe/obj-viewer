@@ -1,3 +1,5 @@
+package io.github.adamyche.objviewer.obj_viewer.testing;
+/*
 package io.github.adamyche.objviewer.obj_viewer;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -13,4 +15,4 @@ public class ExampleController {
     public String getTest() {
         return "\"Testing\"";
     }
-}
+}*/

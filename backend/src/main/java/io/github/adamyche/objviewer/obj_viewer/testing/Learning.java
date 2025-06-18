@@ -1,3 +1,5 @@
+package io.github.adamyche.objviewer.obj_viewer.testing;
+/* 
 package io.github.adamyche.objviewer.obj_viewer;
 
 import org.springframework.context.annotation.Bean;
@@ -26,6 +28,7 @@ class P implements Letter {
         System.out.println("P");
     }
 }
+*/
 /* Java-Based Config
 @Configuration
 public class Learning {

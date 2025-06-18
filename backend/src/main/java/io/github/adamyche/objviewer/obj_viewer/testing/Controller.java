@@ -1,3 +1,5 @@
+package io.github.adamyche.objviewer.obj_viewer.testing;
+/*
 package io.github.adamyche.objviewer.obj_viewer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,4 +22,4 @@ public class Controller {
         String str = "<p>gurt: Yo</p>";
         return str;
     }
-}
+}*/
